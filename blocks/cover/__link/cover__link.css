@@ -1,0 +1,8 @@
+.cover__link {
+  color: white;
+  text-decoration: none;
+}
+
+.cover__link:hover .cover__overlay {
+  opacity: .8;
+}
