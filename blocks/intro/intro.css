@@ -4,3 +4,9 @@
   max-width: 984px;
   margin: auto;
 }
+
+@media (max-width: 1024px) {
+  .intro {
+    margin-left: 48px;
+  }
+}
