@@ -4,8 +4,15 @@
   max-width: 740px;
   font-weight: 900;
   font-size: 96px;
-  line-height: 1.05;
+  line-height: 1.04;
   color: #FFF;
+}
+
+@media (max-width: 1024px) {
+  .lead__title {
+    margin-top: 48px;
+    max-width: 720px;
+  }
 }
 
 @media (max-width: 768px) {

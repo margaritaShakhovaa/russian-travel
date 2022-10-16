@@ -18,5 +18,6 @@
   .intro__title {
     margin: 64px 0 0;
     font-size: 32px;
+    width: 75%;
   }
 }
