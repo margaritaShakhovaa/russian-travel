@@ -1,12 +1,19 @@
 .intro {
   display: flex;
   flex-direction: column;
-  max-width: 984px;
-  margin: auto;
+  max-width: 690px;
+  margin-left: 148px;
 }
 
 @media (max-width: 1024px) {
   .intro {
     margin-left: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    max-width: 720px;
+    margin-left: 24px;
   }
 }

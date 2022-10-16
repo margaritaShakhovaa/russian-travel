@@ -6,3 +6,9 @@
   min-width: 75px;
   justify-content: space-between;
 }
+
+@media (max-width: 768px) {
+  .header__lang-links {
+    margin: 46px 24px 0 0;
+  }
+}

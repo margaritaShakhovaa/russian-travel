@@ -7,3 +7,10 @@
   line-height: 1.05;
   color: #FFF;
 }
+
+@media (max-width: 768px) {
+  .lead__title {
+    margin: 48px auto 32px;
+    max-width: 720px;
+  }
+}

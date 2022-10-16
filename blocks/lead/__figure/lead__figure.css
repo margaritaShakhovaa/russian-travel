@@ -9,3 +9,9 @@
     margin: 64px 48px 0;
   }
 }
+
+@media (max-width: 768px) {
+  .lead__figure {
+    margin: 56px 0 0;
+  }
+}

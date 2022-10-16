@@ -6,3 +6,9 @@
   text-align: right;
   color: #FFF;
 }
+
+@media (max-width: 768px) {
+  .footer__copyright {
+    margin: 88px 24px 24px 0;
+  }
+}

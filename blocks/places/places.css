@@ -10,3 +10,9 @@
     margin: 0 48px;;
   }
 }
+
+@media (max-width: 768px) {
+  .places {
+    margin: 0 24px;;
+  }
+}
