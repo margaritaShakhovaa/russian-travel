@@ -1,5 +1,11 @@
 .place__website {
   display: grid;
-  margin: 0 0 0 40px;
   align-content: flex-end;
+  max-width: 484px;
+}
+
+@media (max-width: 1024px) {
+  .place__website {
+    max-width: 456px;
+  }
 }

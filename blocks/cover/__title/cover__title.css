@@ -10,3 +10,9 @@
   z-index: 1;
   padding-top: 245px;
 }
+
+@media (max-width: 1024px) {
+  .cover__title {
+    padding-top: 195px;
+  }
+}
