@@ -12,3 +12,11 @@
     margin: 88px 24px 24px 0;
   }
 }
+
+@media (max-width: 320px) {
+  .footer__copyright {
+    margin: 48px 0 24px 16px;
+    text-align: left;
+    line-height: 1;
+  }
+}

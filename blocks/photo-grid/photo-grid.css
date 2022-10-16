@@ -1,7 +1,7 @@
 .photo-grid {
+  display: grid;
   max-width: 1184px;
   align-content: center;
-  display: grid;
   gap: 16px;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-template-rows: repeat(3, 1fr);
@@ -23,5 +23,14 @@
     max-width: 720px;
     grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
     padding-bottom: 88px;
+  }
+}
+
+@media (max-width: 320px) {
+  .photo-grid {
+    gap: 12px;
+    max-width: 288px;
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+    padding-bottom: 64px;
   }
 }

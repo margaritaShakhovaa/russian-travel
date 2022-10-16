@@ -18,4 +18,8 @@
   .place__paragraph:first-of-type {
     padding-bottom: 25px;
   }
+
+  .place__paragraph:first-of-type:last-child {
+    padding-bottom: 0;
+  }
 }
