@@ -4,6 +4,7 @@
 * Интро
 * Figma
 * Технологии
+* Ссылка на проект
 
 **Интро**
 
@@ -22,3 +23,6 @@
 3. Grid Layout
 4. Методология БЭМ
 5. Медиазапросы
+
+**Ссылка на проект**
+* [Ссылка на проект GitPages](https://margaritashakhovaa.github.io/russian-travel/index.html)
