@@ -16,7 +16,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 455px) {
   .place__website {
     max-width: 288px;
     margin-left: 16px;

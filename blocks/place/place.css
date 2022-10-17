@@ -31,11 +31,17 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 700px) {
   .place {
-    max-width: 320px;
-    grid-template-columns: auto;
+    max-width: 650px;
     gap: 32px;
+    grid-template-columns: auto;
+  }
+}
+
+@media (max-width: 455px) {
+  .place {
+    max-width: 320px; 
     padding-bottom: 50px;
   }
 
