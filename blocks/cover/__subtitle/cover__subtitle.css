@@ -10,11 +10,16 @@
   margin: 32px auto 0;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 455px) {
   .cover__subtitle {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover__subtitle {
     margin: 16px auto 0;
-    max-width: 288px;
     line-height: 1.14;
+    max-width: 288px;
   }
 }
